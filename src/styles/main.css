@@ -1,0 +1,57 @@
+.banner {
+  background-image: url(../images/t-shirts-2731768_1920.jpg);
+  width: 100vw;
+  height: 50vh;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+}
+
+.main-content {
+  background: #2196f3;
+  color: white;
+}
+
+.main-content h3 {
+  color: white;
+}
+
+/* icon columns  */
+.columns-div {
+  margin: 2%;
+  display: flex;
+  justify-content: center;
+}
+
+.columns-div__part {
+  padding: 10px 5px;
+  margin: 0 2rem;
+  max-width: 300px;
+  text-align: center;
+}
+
+.columns-div__icon {
+  width: 8rem;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
+.columns-div__subtitle {
+  margin-top: 1rem;
+}
+
+@media (max-width: 768px) {
+  .columns-div {
+    flex-direction: column;
+    margin-top: 2rem;
+  }
+
+  .columns-div__part {
+    width: 100%;
+    margin: auto;
+  }
+}
